@@ -1,7 +1,10 @@
 class Translation(object):
-    START_TEXT = """ <b> Hi {} , \nI'm A Simple File Renamer+File To Video Converter Bot With Permanent Thumbnail And Custom Caption support!</b> \n
-
-<b>Bot Maintained By: @mallubotzofficial </b> \n 
+    START_TEXT = """
+<b>Hello {},
+I am a simple youtube thumbnail downloader telegram bot.</b>
+- <code>Send a youtube video link or video ID.</code>
+- <code>I will send the thumbnail.</code>
+<b>Made by @razkidz</b>
 """
     START_BUTTON = InlineKeyboardMarkup(
         [[
